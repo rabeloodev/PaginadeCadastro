@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="main-container">
+            <header class="cabecalho">
+                <span class="marca" aria-hidden="true">+</span>
+                <p class="eyebrow">ENTRAR AGORA</p>
+                <h1>Entre na sua conta</h1>
+                <p class="subtitulo">Preencha seus dados para entrar.</p>
+            </header>
+
+            <form class="formulario" action="#" method="post">
+                <div class="campo username">
+                    <label for="username">Nome de usuário</label>
+                    <input type="text" id="username" name="username" placeholder="Ex.: seu_nome" autocomplete="username" minlength="3" required>
+                </div>
+
+                <div class="campo email">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="email" required>
+                </div>
+
+                <div class="campo senha">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" placeholder="Mínimo de 8 caracteres" autocomplete="new-password" minlength="8" required>
+                    <small>Use pelo menos 8 caracteres.</small>
+                </div>
+
+                <div class="butao">
+                    <button type="submit">Entrar na minha conta <span aria-hidden="true">→</span></button>
+                </div>
+            </form>
+
+            <p class="login">Não possui uma conta? <a href="./index.html">Criar uma conta</a></p>
+        </div>
+    </main>
+</body>
+</html>
